@@ -4,7 +4,7 @@ import axios from 'axios';
 
 // Connect to the Node.js backend
 // Make sure the port matches your backend server port
-const SOCKET_SERVER_URL = 'http://localhost:3000'; 
+const SOCKET_SERVER_URL = 'https://server-rcs-3.onrender.com'; 
 const socket = io(SOCKET_SERVER_URL);
 
 function App() {
